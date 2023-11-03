@@ -1,10 +1,10 @@
-const shoppingList = [];
+const arrayList = [];
 
-let i = countElems(shoppingList);
+let i = returnElems(shoppingList);
 console.log(shoppingList);
 document.getElementById("result").innerHTML = shoppingList;
 
-function countElems(array = []){
+function returnElems(array = []){
     let curElem;
     while (!(curElem === null)) {
         curElem = prompt("Insert element");
